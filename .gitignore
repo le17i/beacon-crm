@@ -1,0 +1,47 @@
+# --- Node / pnpm ---
+node_modules/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# --- Nx ---
+.nx/cache/
+.nx/workspace-data/
+
+# --- Next.js (future apps/web) ---
+.next/
+out/
+
+# --- NestJS / TypeScript build output (future services/*) ---
+dist/
+*.tsbuildinfo
+
+# --- Env / secrets ---
+.env
+.env.*.local
+.env.local
+!.env.example
+
+# --- Editor / OS noise ---
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Test / coverage ---
+coverage/
+playwright-report/
+test-results/
+
+# --- Terraform (future infra/) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# --- Logs / local observability ---
+*.log
+.otel-local/

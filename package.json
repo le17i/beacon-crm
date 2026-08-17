@@ -1,0 +1,20 @@
+{
+  "name": "beacon-crm",
+  "version": "1.0.0",
+  "description": "Open-source, API-first CRM — Kanban pipeline, lead ingestion API, and automation engine.",
+  "private": true,
+  "scripts": {
+    "test": "nx run-many -t test",
+    "lint": "nx run-many -t lint",
+    "typecheck": "nx run-many -t typecheck",
+    "build": "nx run-many -t build",
+    "graph": "nx graph"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "nx": "^23.1.1"
+  }
+}
