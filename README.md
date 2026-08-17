@@ -1,4 +1,4 @@
-# 🔦 Beacon CRM
+# 🔦 Beacon CRM [WIP]
 
 > **Clarity in Pipeline & Developer-First Automation**
 
